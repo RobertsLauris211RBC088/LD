@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "setup",
+      "setup": "",
+      "run": "pip install -r setup.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "result",
+      "setup": "",
+      "run": "python result.py",
+      "input": "",
+      "output": "138",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    }
+  ]
+}
